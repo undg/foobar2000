@@ -47,3 +47,4 @@ per_frame_1=wave_y = 1.4;
 per_frame_2=decay = decay - 0.02*equal(frame%30,0);
 per_pixel_1=dx = dx + (x*2-1.5)*0.002 + 0.0015*sin(y*12-6 + time*1.03);
 per_pixel_2=dy = dy + 0.01+ 0.005*sin(y*36-18);
+fRating=5.000000

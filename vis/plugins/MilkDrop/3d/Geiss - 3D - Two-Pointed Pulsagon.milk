@@ -46,3 +46,4 @@ per_frame_5=rot = rot + 0.030*( 0.60*sin(0.381*time) + 0.40*sin(0.579*time) );
 per_frame_6=decay = decay - 0.01*equal(frame%6,0);
 per_pixel_1=zoom=zoom+0.06-0.06*sin(ang*2+time*3);
 bRedBlueStereo=1
+fRating=5.000000

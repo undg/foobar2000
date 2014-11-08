@@ -45,3 +45,4 @@ per_frame_4=sy = sy + 0.010*( 0.60*sin(0.367*time) + 0.40*sin(0.272*time) );
 per_frame_5=decay = decay - 0.02*equal(frame%40,0);
 per_pixel_1=rot=rot+rad*0.18*sin(0.4*time);
 bRedBlueStereo=1
+fRating=5.000000
